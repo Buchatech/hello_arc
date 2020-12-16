@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Zach is watching the Azure Arc GitOps Demo Live and Direct!
+          value: Buchatech Azure Arc GitOps Demo!
