@@ -1,13 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-annotations:
-  name: marionew
+  name: marionew-service
 spec:
   type: LoadBalancer
   ports:
-    - port: 8080
-      targetPort: 8080
+  - port: 8080
+    targetPort: 8080
   selector:
     app: marionew
 ---
