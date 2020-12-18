@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Ava Azure Arc GitOps Demo!
+          value: Steve B Azure Arc GitOps Demo!
