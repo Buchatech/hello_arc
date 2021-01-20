@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Avanade Azure Arc GitOps Demo!
+          value: Arc GitOps Demo!
