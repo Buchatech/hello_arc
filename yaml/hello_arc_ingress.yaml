@@ -10,7 +10,7 @@ metadata:
 spec:
   rules:
   - http:
-      paths:
+      paths: /hello-arc
       - backend:
           serviceName: hello-arc
           servicePort: 8080
